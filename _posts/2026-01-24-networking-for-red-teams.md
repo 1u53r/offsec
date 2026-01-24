@@ -11,7 +11,7 @@ To break a network, you must first understand how it is built. In this post, I a
 ## The 7 Layers of Attack
 Most people see the OSI model as theory. I see it as an attack surface.
 
-![OSI Model Diagram](/assets/img/osi-model-diagram.png)
+<!-- ![OSI Model Diagram](/assets/img/osi-model-diagram.png) -->
 _Figure 1: The standard 7-layer model_
 
 ### Layer 1: Physical

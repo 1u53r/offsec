@@ -1,7 +1,7 @@
 ---
 title: "IP Addressing and Subnet"
 date: 2026-01-24 16:00:00 +0530
-categories: [Red Teaming, Essential Networking concepts for Red Teaming]
+categories: [Red Teaming, Ip Addressing and Subnet]
 tags: [IP Addressing, Subnet, theory, basics]
 ---
 

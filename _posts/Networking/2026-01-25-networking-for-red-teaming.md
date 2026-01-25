@@ -1,7 +1,7 @@
 ---
 title: "Networking 0x01: The OSI Model for Attackers"
 date: 2026-01-25 16:00:00 +0530
-categories: [Networking, Testing]
+categories: [Red Teaming, Networking, Testing]
 tags: [osi-model, theory, basics]
 ---
 

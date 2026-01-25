@@ -40,3 +40,4 @@ if response == 0:
   print(f"{hostname} is up!")
 else:
   print(f"{hostname} is down!")
+```

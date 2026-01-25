@@ -1,8 +1,8 @@
 ---
-title: "Networking 0x01: The OSI Model for Attackers"
+title: "IP Addressing and Subnet"
 date: 2026-01-24 16:00:00 +0530
-categories: [Red Teaming, Networking]
-tags: [osi-model, theory, basics]
+categories: [Red Teaming, Essential Networking concepts for Red Teaming]
+tags: [IP Addressing, Subnet, theory, basics]
 ---
 
 ## Introduction

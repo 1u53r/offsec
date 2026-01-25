@@ -27,10 +27,14 @@ We don't need complex tools to interact with Layer 3. Here is a simple Python sc
 
 ```python
 import os
+import platform
 
+# Check if we are on Windows or Linux to choose the correct ping flag
+param = '-n' if platform.system().lower() == 'windows' else '-c'
 hostname = "google.com"
-# Note: '-c 1' is for Linux/Mac. Use '-n 1' if running on Windows.
-response = os.system("ping -c 1 " + hostname)
+
+# The command will now work on both your Windows PC and Linux servers
+response = os.system(f"ping {param} 1 {hostname}")
 
 if response == 0:
   print(f"{hostname} is up!")

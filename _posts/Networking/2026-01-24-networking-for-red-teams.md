@@ -25,7 +25,7 @@ _Figure 1: The standard 7-layer model_
 ## The Code: Python Ping Scanner
 We don't need complex tools to interact with Layer 3. Here is a simple Python script I wrote to check for active hosts:
 
-```python
+``` python
 import os
 
 hostname = "google.com"
@@ -35,3 +35,5 @@ if response == 0:
   print(f"{hostname} is up!")
 else:
   print(f"{hostname} is down!")
+
+```

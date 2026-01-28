@@ -6,17 +6,25 @@ tags: [IP Addressing, Subnet, theory, basics]
 ---
 
 ## Introduction
-To break a network, you must first understand how it is built. In this post, I am exploring the OSI model—not as a network engineer, but as a Red Teamer looking for vulnerabilities at every layer.
+To break a network, We must first understand how it is built. In this post, I am exploring some very first important concepts of networking, but as a Red Teamer perspective.
 
-## The 7 Layers of Attack
-Most people see the OSI model as theory. I see it as an attack surface.
+## IP Addressing & Subnetting
+No network can exist without IP address and subnet masks, and that is why is the one of the most important networking topics to learn to become a master in red teaming.
 
-<!-- ![OSI Model Diagram](/assets/img/osi-model-diagram.png) -->
-_Figure 1: The standard 7-layer model_
+As an aspiring Red Teamer, I realized that I can't just run tools blindly. I need to understand the network I'm attacking. If I don't know the difference between a `/24` and a `/23`, I might end up attacking the wrong target or would miss the target, or even worst target the network for which i am not autorised. Causing a law suit agains't me.
 
-### Layer 1: Physical
-* **Concept:** The actual cables and hardware.
-* **Attack:** If I can physically touch the server, I own it. (e.g., Plugging in a Rubber Ducky USB).
+
+## IP ADDRESSING
+
+* **What is an IP Address :** An IP address is a unique 32 bit number assigned to every device on the netowrk, be it small network or a huge network which uses internet protocol for communication.
+
+  * **Example :** 172.217.19.164 (Google.com)
+
+* **The Anatomy Of An IP Address :**  An IP Address is build wth two seprate parts.
+  * **Network Portion :**
+  * **Host Portion :**
+
+* **Attack :** If I can physically touch the server, I own it. (e.g., Plugging in a Rubber Ducky USB).
 
 ### Layer 3: Network
 * **Concept:** Routing and IP addresses.

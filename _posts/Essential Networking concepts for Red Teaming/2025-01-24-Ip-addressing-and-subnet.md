@@ -31,26 +31,19 @@ As an aspiring Red Teamer, I realized that I can't just run tools blindly. I nee
 
 * **Eaxmple :** Depending on the <b>Subnet Mask </b>, the first part (192.168.1) is likely the street, and the last part (.10) is the specific house.
 
-### Layer 3: Network
-* **Concept:** Routing and IP addresses.
-* **Attack:** This is where we perform reconnaissance using tools like `ping` to see if a host is alive.
+### SUBNET MASK
+An IP Adderss alone won't help us to know the size of the network or what are the host could be available on this network, that's were <b>SUBNET MASK </b> comes in. It is like a fence around the city, which contains many hosts (houses) inside.
 
-## The Code: Python Ping Scanner
-We don't need complex tools to interact with Layer 3. Here is a simple Python script I wrote to check for active hosts:
+We use <b>CIDR</b> (Classless Inter-Domain Routing) notation because it's faster. This is the /XX number at the end of an IP.
 
-```python
-import os
-import platform
+    /24 (255.255.255.0): The standard LAN. 254 usable hosts.
 
-# Check if we are on Windows or Linux to choose the correct ping flag
-param = '-n' if platform.system().lower() == 'windows' else '-c'
-hostname = "google.com"
+    /16 (255.255.0.0): A large campus network. 65,000+ hosts.
 
-# The command will now work on both your Windows PC and Linux servers
-response = os.system(f"ping {param} 1 {hostname}")
+* The Red Team "Magic Number" Trick 
 
-if response == 0:
-  print(f"{hostname} is up!")
-else:
-  print(f"{hostname} is down!")
-```
+  * Calculating ranges in binary is too slow. I learned the Magic Number method to find the range of my target quickly.
+
+        Formula:  256 - (Subnet Mask Value) = Block Size
+
+* EXAMPLE :  

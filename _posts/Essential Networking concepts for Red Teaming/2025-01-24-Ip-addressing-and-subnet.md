@@ -29,7 +29,7 @@ As an aspiring Red Teamer, I realized that I can't just run tools blindly. I nee
 
     ![Network Diagram](/assets/img/Example2.jpeg)
 
-* **Attack :** If I can physically touch the server, I own it. (e.g., Plugging in a Rubber Ducky USB).
+* **Eaxmple :** Depending on the <b>Subnet Mask </b>, the first part (192.168.1) is likely the street, and the last part (.10) is the specific house.
 
 ### Layer 3: Network
 * **Concept:** Routing and IP addresses.

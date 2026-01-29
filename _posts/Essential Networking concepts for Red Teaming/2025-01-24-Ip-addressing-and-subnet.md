@@ -14,7 +14,7 @@ No network can exist without IP address and subnet masks, and that is why is the
 As an aspiring Red Teamer, I realized that I can't just run tools blindly. I need to understand the network I'm attacking. If I don't know the difference between a `/24` and a `/23`, I might end up attacking the wrong target or would miss the target, or even worst target the network for which i am not autorised. Causing a law suit agains't me.
 
 
-## IP ADDRESSING
+### IP ADDRESSING
 
 * **What is an IP Address :** An IP address is a unique 32 bit number assigned to every device on the netowrk, be it small network or a huge network which uses internet protocol for communication.
 

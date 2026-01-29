@@ -23,11 +23,11 @@ As an aspiring Red Teamer, I realized that I can't just run tools blindly. I nee
 * **The Anatomy Of An IP Address :**  An IP Address is build wth two portions.
   * **Network Portion :** This portion are the initial bits of the IP address which helps the router to reoute traffic to correct network. This portion also helps to identify the network a device belongs to. This is like a street for traffic that helps which street to go to find the reciver of that traffic.
 
-    ![Network Diagram](../../assets/img/Example1.png)
+    ![Network Diagram](../../assets/img/Example1.jpeg)
 
   * **Host Portion :** This portion is the host portion which tells the traffic where exactly it is at that street(Network Portion). These are the very last bits of an IP Address.
 
-    ![Network Diagram](../../assets/img/Example2.png)
+    ![Network Diagram](../../assets/img/Example2.jpeg)
 
 * **Attack :** If I can physically touch the server, I own it. (e.g., Plugging in a Rubber Ducky USB).
 

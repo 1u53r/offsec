@@ -1,8 +1,8 @@
 ---
 title: "The OSI Model: A Red Teamer's Perspective"
-date: 2026-02-01 08:00:00 +0530
+date: 2026-01-31 16:00:00 +0530
+categories: [Red Teaming, The OSI Model]
 tags: [networking, red-team, basics, osi-model]
-category: Networking
 ---
 
 # The OSI Model: A Red Teamer's Perspective
